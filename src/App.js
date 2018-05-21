@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
+import Intro from './component/Intro'
 import './App.css';
 
-const Intro = (props) => (
-        <p className="App-intro">
-          First function wibu coder. Wibu juga harus bisa coding.
-        </p>
-)
 class App extends Component {
   render() {
     return (
@@ -13,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Wibu Coder</h1>
         </header>
-        <Intro />
+        <Intro pesan="Ini adalah props yang dibuat wibu coder"/>
       </div>
     );
   }
